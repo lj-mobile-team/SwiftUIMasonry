@@ -1,4 +1,4 @@
-Pod::Spec.new dp |spec|
+Pod::Spec.new do |spec|
   spec.name = "SwiftUIMasonry"
   spec.version = "0.0.1"
   spec.summary = "SwiftUI views that arrange their children in Pinteresr-like layout."
