@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.description = <<-DESC
                       SwiftUIMasonry
                       DESC
-  spec.source_files = "Sources"
+  spec.source_files = "Sources/SwiftUIMasonry/**/*.{h,m,swift}"
   spec.homepage = "https://github.com/lj-mobile-team/SwiftUIMasonry"
   spec.license = "MIT"
   spec.author = { "ciaranrobrien" => "twitter" }
