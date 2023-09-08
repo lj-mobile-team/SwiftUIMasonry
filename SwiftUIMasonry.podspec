@@ -9,5 +9,5 @@ Pod::Spec.new dp |spec|
   spec.homepage = "https://github.com/lj-mobile-team/SwiftUIMasonry"
   spec.license = "MIT"
   spec.author = { "ciaranrobrien" => "twitter" }
-  spec.source = { :git => "https://github.com/lj-mobile-team/SwiftUIMasonry.git", :tag => "#{s,version}" }
+  spec.source = { :git => "https://github.com/lj-mobile-team/SwiftUIMasonry.git", :tag => "#{spec.version}" }
 end
