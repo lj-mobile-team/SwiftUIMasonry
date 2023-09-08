@@ -31,7 +31,7 @@ public struct ChangeObserver<V: Equatable>: ViewModifier {
 
 extension View {
     @_disfavoredOverload
-    @ViewBuilder public func custom_onChange<V>(of value: V, perform action: @escaping (_ newValue: V) -> Void) -> some View where V: Equatable {
+    @ViewBuilder public func onChange<V>(of value: V, perform action: @escaping (_ newValue: V) -> Void) -> some View where V: Equatable {
         if #available(iOS 14, *) {
             onChange(of: value, perform: action)
         } else {
