@@ -1,10 +1,11 @@
 Pod::Spec.new do |spec|
   spec.name = "SwiftUIMasonry"
-  spec.version = "0.0.5"
-  spec.summary = "SwiftUI views that arrange their children in Pinteresr-like layout."
+  spec.version = "0.0.6"
+  spec.summary = "SwiftUIMasonry"
   spec.description = <<-DESC
-                      SwiftUIMasonry
+                        SwiftUI views that arrange their children in Pinteresr-like layout.
                       DESC
+  spec.swift_versions = "5.0"
   spec.source_files = "Sources/SwiftUIMasonry/**/*.{h,m,swift}"
   spec.homepage = "https://github.com/lj-mobile-team/SwiftUIMasonry"
   spec.license = "MIT"
